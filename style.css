@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-left: 50px;
+}
+
+header {
+  width: 100%; 
+  font-family: mulish;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 40px;
+
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul :nth-child(2) {
+  margin-left: 50%;
+
+}
+
+li {
+  padding-left: 20px;
+  display: inline;
+  color: var(--1f1534-hyfen, #1F1534);
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.logo {
+  color: #233348;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 1000;
+  line-height: normal;
+}
+
+.home {
+  display: flex;
+}
+
+.home-body {
+  display: flex;
+  flex-direction: column;
+  margin: auto; 
+  margin-left: 190px;
+}
+
+.home-body-tit {
+  color: #000;
+  font-family: Mulish;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+  margin-bottom: 35px;
+}
+
+.home-body-body {
+  color: #7D7987;
+  font-family: Mulish;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px; /* 152.381% */
+  margin-bottom: 35px;
+
+}
+
+.home-body-button {
+  width: 200px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 55px;
+  background: #458FF6;
+  stroke: none;
+  color: white;
+}
+
+.home-image {
+  width: 650px;
+  height: 550px;
+  flex-shrink: 0;
+  margin-right: 190px;
+  margin-left: 10px;
+  padding-left: 70px;
+}
+
+.page-2 {
+  margin-left: 170px;
+  margin-right: 170px;
+}
+
+.page-2 .title {
+  color: #000;
+  font-family: Mulish;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px; /* 155.556% */
+  text-align: center;
+  margin-top: 120px;
+}
+
+.page-2 .body {
+  color: #7D7987;
+text-align: center;
+font-family: Mulish;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 30px; /* 166.667% */
+}
+
+.page-2 .panes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.page-2 .panes .pane1, .pane2, .pane3, .pane4, .pane5, .pane6 {
+  text-align: center;
+  margin: 30px;
+
+}
+
+.page-2 .panes .heading {
+  color: #000;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 56px; /* 233.333% */
+}
+
+.page-2 .panes .body {
+  color: #7D7987;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 28px; /* 175% */
+}
+
+.page-2 button {
+  text-align: center;
+  border-radius: 55px;
+  border: 1.4px solid #458FF6;
+  width: 200px;
+  height: 56px;
+  margin-left: 40%;
+}
+
+
